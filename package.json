@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "SEE LICENSE IN https://pspdfkit.com/legal/License.pdf",
   "dependencies": {
-    "next": "11.0.0",
+    "next": "12.1.0",
     "pspdfkit": "2022.1.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
@@ -12,5 +12,8 @@
   "scripts": {
     "copy-assets": "cp -R ./node_modules/pspdfkit/dist/pspdfkit-lib ./public/",
     "dev": "npm run copy-assets && next dev"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
   }
 }
